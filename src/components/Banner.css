@@ -1,0 +1,41 @@
+.banner{
+    padding-top: 120px;
+    height: 448px;
+    object-fit: contain;
+    color: white;
+}
+.bannerTitle{
+    margin-left: 30px;
+    font-size: 3rem;
+}
+.overview{
+    margin-left: 30px;
+    font-size:0.3rem;
+    width: 45rem;
+    line-height: 1.3;
+    font-size: 0.8rem;
+}
+.banner_buttons{
+    margin: 30px;
+    text-align: left;
+    
+}
+.bannerBtn{
+    font-weight: 700;
+    margin-right: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    scale: 1.1;
+    border-radius: 4px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.bannerBtn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
