@@ -1,3 +1,6 @@
+#You can visit the website by clicking on the following link-
+https://netflix-clone-a95d2.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
