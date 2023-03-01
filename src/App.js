@@ -9,7 +9,6 @@ function App() {
   
   return (
     <div className="app">
-      
       <Banner/>
       <Rows title={'NETFLIX ORIGINALS'} fetchURL={request.fetchOriginals} largeRow/>
       <Rows title={'TRENDING NOW'} fetchURL={request.fetchTrending}/>

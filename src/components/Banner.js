@@ -10,11 +10,12 @@ function Banner() {
             setMovie(data.data.results[
                 Math.floor(Math.random() * data.data.results.length)
             ]);
+          
         return data
         }
         fetchData()
     },[])
-    console.log('a',movie)
+
   return (
     <header className='banner' style={{backgroundImage: `url("https://image.tmdb.org/t/p/original${movie.backdrop_path}")`,backgroundSize:"cover",backgroundPosition:"center center "}}>
       <div className="banner_contents">
